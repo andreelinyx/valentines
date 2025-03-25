@@ -27,7 +27,7 @@ function checkName(){
     const correctNames = ["Matthias", "matthias", "baby", "mattsi", "Mattsi", "Baby"]
 
     if (correctNames.includes(userName)){
-        window.location.href="index.html";
+        window.location.href="front.html";
     } else{
         alert("INTRUDER ALERT!!!! Try again.")
     }
