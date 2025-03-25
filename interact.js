@@ -24,7 +24,7 @@ document.getElementById("no").addEventListener("click", () => {
 
 function checkName(){
     const userName = document.querySelector("textarea").value;
-    const correctNames = ["Matthias", "matthias", "baby", "mattsi", "Mattsi", "Baby"]
+    const correctNames = ["name"] //edit
 
     if (correctNames.includes(userName)){
         window.location.href="front.html";
